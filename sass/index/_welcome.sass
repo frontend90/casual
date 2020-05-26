@@ -1,0 +1,61 @@
+.welcome
+  margin-top: 20px 
+  & .welcome-block 
+    background: rgba(#ffffff,.9)
+    padding: 30px 
+    & .welcome-slider 
+      & .slick-list 
+        overflow: hidden
+        & .slick-track 
+          display: flex 
+          & .welcome-slider-block
+            text-align: center
+            & img 
+              width: 100%
+      & .slick-dots 
+        display: flex 
+        justify-content: center
+        align-items: center
+        margin-top: -50px 
+        & li 
+          list-style: none
+          width: 10px 
+          height: 10px 
+          border: 1px solid #ffffff
+          border-radius: 50%
+          margin: 0 3px 
+          z-index: 9999
+          cursor: pointer
+          & button 
+            font-size: 0
+        & .slick-active 
+          width: 12px 
+          height: 12px 
+          background: #ffffff
+    & .welcome-desc
+      text-align: center
+      margin-top: 65px 
+      & h5 
+        font-size: 20px 
+        color: #777777
+        letter-spacing: 1px 
+        +jos_reg
+        font-weight: lighter
+        line-height: 1.1 
+      & h4 
+        margin-top: 15px 
+        font-size: 56px 
+        +jos_bold 
+        letter-spacing: 1px 
+        line-height: 1.1 
+      & p 
+        margin-top: 20px 
+        text-transform: uppercase
+        letter-spacing: 1px 
+        +jos_reg 
+        font-size: 20px 
+        color: #777777
+        & span 
+          +jos_bold 
+
+

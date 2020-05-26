@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'fa-solid-900';
+  src: url("../fonts/fa-solid-900.ttf");
+}
+
+@font-face {
+  font-family: 'fa-brands-400';
+  src: url("../fonts/fa-brands-400.ttf");
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'JosefinSlab-Bold';
+  src: url("../fonts/JosefinSlab-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'JosefinSlab-Regular';
+  src: url("../fonts/JosefinSlab-Regular.ttf");
+}
+
+body {
+  font-size: 14px;
+  color: #333333;
+  font-family: 'OpenSans-Regular';
+  background: url(../img/bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  background-position: fixed;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header .header-logo {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.header .header-logo h3 {
+  font-family: 'JosefinSlab-Bold';
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.header .header-logo p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.header .header-nav {
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 40px;
+}
+
+.header .header-nav .header-menu .burger {
+  display: none;
+}
+
+.header .header-nav .header-menu .menu {
+  text-align: center;
+}
+
+.header .header-nav .header-menu .menu a {
+  padding: 35px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 18px;
+  letter-spacing: 3px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.header .header-nav .header-menu .menu a:hover {
+  color: #333333;
+}
+
+.welcome {
+  margin-top: 20px;
+}
+
+.welcome .welcome-block {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+}
+
+.welcome .welcome-block .welcome-slider .slick-list {
+  overflow: hidden;
+}
+
+.welcome .welcome-block .welcome-slider .slick-list .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.welcome .welcome-block .welcome-slider .slick-list .slick-track .welcome-slider-block {
+  text-align: center;
+}
+
+.welcome .welcome-block .welcome-slider .slick-list .slick-track .welcome-slider-block img {
+  width: 100%;
+}
+
+.welcome .welcome-block .welcome-slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -50px;
+}
+
+.welcome .welcome-block .welcome-slider .slick-dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin: 0 3px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.welcome .welcome-block .welcome-slider .slick-dots li button {
+  font-size: 0;
+}
+
+.welcome .welcome-block .welcome-slider .slick-dots .slick-active {
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+}
+
+.welcome .welcome-block .welcome-desc {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.welcome .welcome-block .welcome-desc h5 {
+  font-size: 20px;
+  color: #777777;
+  letter-spacing: 1px;
+  font-family: 'JosefinSlab-Regular';
+  font-weight: lighter;
+  line-height: 1.1;
+}
+
+.welcome .welcome-block .welcome-desc h4 {
+  margin-top: 15px;
+  font-size: 56px;
+  font-family: 'JosefinSlab-Bold';
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
+.welcome .welcome-block .welcome-desc p {
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'JosefinSlab-Regular';
+  font-size: 20px;
+  color: #777777;
+}
+
+.welcome .welcome-block .welcome-desc p span {
+  font-family: 'JosefinSlab-Bold';
+}
+/*# sourceMappingURL=style.css.map */

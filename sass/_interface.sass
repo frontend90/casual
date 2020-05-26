@@ -1,0 +1,38 @@
+@font-face 
+  font-family: 'fa-solid-900'
+  src: url('../fonts/fa-solid-900.ttf')
+@mixin solid
+  font-family: 'fa-solid-900'
+@font-face 
+  font-family: 'fa-brands-400'
+  src: url('../fonts/fa-brands-400.ttf')
+@mixin brand
+  font-family: 'fa-brands-400'
+@font-face 
+  font-family: 'OpenSans-Regular'
+  src: url('../fonts/OpenSans-Regular.ttf')
+@mixin open_reg 
+  font-family: 'OpenSans-Regular'
+@font-face 
+  font-family: 'JosefinSlab-Bold'
+  src: url('../fonts/JosefinSlab-Bold.ttf')
+@mixin jos_bold
+  font-family: 'JosefinSlab-Bold'
+@font-face 
+  font-family: 'JosefinSlab-Regular'
+  src: url('../fonts/JosefinSlab-Regular.ttf')
+@mixin jos_reg
+  font-family: 'JosefinSlab-Regular'
+body 
+  font-size: 14px 
+  color: #333333
+  +open_reg 
+  background: url(../img/bg.jpg) no-repeat 
+  background-position: center center 
+  background-size: cover 
+  height: 100%
+  background-position: fixed 
+.container
+  max-width: 1170px 
+  margin: 0 auto
+  height: 100%

@@ -1,0 +1,33 @@
+.header 
+  & .header-logo 
+    text-align: center
+    padding-top: 30px 
+    & h3 
+      +jos_bold
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+      font-size: 70px 
+      color: #ffffff
+    & p 
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+      text-transform: uppercase
+      font-size: 18px 
+      color: #ffffff
+      letter-spacing: 3px 
+  & .header-nav
+    background: rgba(#ffffff,.9)
+    margin-top: 40px 
+    & .header-menu 
+      & .burger 
+        display: none 
+      & .menu 
+        text-align: center
+        & a 
+          padding: 35px 
+          display: inline-block
+          text-transform: uppercase
+          color: #777777
+          font-size: 18px 
+          letter-spacing: 3px 
+          transition: .3s linear 
+          &:hover
+            color: #333333
