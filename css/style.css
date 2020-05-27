@@ -35,9 +35,10 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 100%;
+  padding: 0 15px;
 }
 
 .header .header-logo {
@@ -50,6 +51,7 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   font-size: 70px;
   color: #ffffff;
+  line-height: 1.1;
 }
 
 .header .header-logo p {
@@ -65,15 +67,11 @@ body {
   margin-top: 40px;
 }
 
-.header .header-nav .header-menu .burger {
-  display: none;
-}
-
-.header .header-nav .header-menu .menu {
+.header .header-nav .header-menu {
   text-align: center;
 }
 
-.header .header-nav .header-menu .menu a {
+.header .header-nav .header-menu a {
   padding: 35px;
   display: inline-block;
   text-transform: uppercase;
@@ -84,7 +82,7 @@ body {
   transition: .3s linear;
 }
 
-.header .header-nav .header-menu .menu a:hover {
+.header .header-nav .header-menu a:hover {
   color: #333333;
 }
 
@@ -182,5 +180,24 @@ body {
 
 .welcome .welcome-block .welcome-desc p span {
   font-family: 'JosefinSlab-Bold';
+}
+
+@media screen and (max-width: 680px) {
+  .welcome .welcome-block {
+    padding: 10px;
+  }
+  .welcome .welcome-block .welcome-slider .slick-dots {
+    margin-top: -20px;
+  }
+  .welcome .welcome-block .welcome-desc h4 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .header .header-nav .header-menu a {
+    display: block;
+    padding: 20px 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
