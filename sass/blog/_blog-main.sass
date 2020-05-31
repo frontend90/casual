@@ -1,0 +1,88 @@
+.blog-main
+  margin-top: 20px 
+  & .blog-main-block 
+    background: rgba(#ffffff,.9)
+    padding: 30px
+    & .title 
+      text-align: center
+      margin-top: 40px 
+      & h5 
+        text-transform: uppercase
+        font-size: 18px
+        letter-spacing: 1px 
+        +jos_reg
+        font-weight: lighter
+        position: relative
+        & span 
+          +jos_bold 
+        &::before
+          content: ''
+          position: absolute
+          top: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 36% 
+        &::after 
+          content: ''
+          position: absolute
+          bottom: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 36%  
+    & .block 
+      margin-top: 20px 
+      position: relative
+      padding-bottom: 20px 
+      &::before
+        content: ''
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 0
+        height: 1px 
+        background: #999999
+        width: 36%
+      & .img 
+        width: 100%
+        & img 
+          width: 100%
+          border: 1px solid #999999
+      & .content 
+        text-align: center
+        margin-top: 20px 
+        & h5 
+          text-transform: uppercase
+          +jos_bold
+          font-size: 30px 
+          letter-spacing: 1px 
+          line-height: 1.1 
+        & h6 
+          font-size: 20px 
+          text-transform: uppercase
+          color: #777777
+          +jos_reg 
+          font-weight: lighter
+          margin-top: 5px 
+        & p 
+          margin-top: 10px 
+          font-size: 18px 
+          line-height: 1.6 
+          color: #000000
+        & .btn 
+          margin-top: 10px 
+          & button 
+            width: 125px 
+            height: 45px 
+            font-size: 18px 
+            border-radius: 6px 
+            background: #ffffff
+            border: 1px solid #cccccc
+            transition: .3s linear 
+            &:hover
+              background: #dddddd
+    & .block1
+      margin-top: 40px  
