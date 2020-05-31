@@ -1,3 +1,29 @@
+@media screen and ( max-width: 900px )
+  .about-block1
+    & .block1-block 
+      & .title 
+        & h5 
+          &::before
+            width: 80%
+          &::after
+            width: 80%
+      & .block-wrap  
+        flex-direction: column 
+        justify-content: center
+        & .block 
+          margin: auto
+        & .content 
+          margin-top: 40px 
+@media screen and ( max-width: 885px )
+  .about-block2
+    & .block2-block 
+      & .block-wrap
+        flex-direction: column 
+        justify-content: center
+        margin-top: 0
+        & .card
+          margin: 50px auto 0 
+          width: 80%
 @media screen and ( max-width: 680px )
   .welcome 
     & .welcome-block 
@@ -15,6 +41,12 @@
         & a 
           display: block 
           padding: 20px 0 
+@media screen and ( max-width: 600px )
+  .about-block1
+    & .block1-block 
+      & .block-wrap  
+        & .block 
+          width: 100%
 @media screen and ( max-width: 550px )
   .block1 
     & .block1-block 
@@ -41,4 +73,25 @@
             width: 80%
           &::after
             width: 80%
+  .about-block2
+    & .block2-block 
+      & .title 
+        & h5 
+          &::before
+            width: 80%
+          &::after
+            width: 80%
+      & .block-wrap
+        & .card
+          width: 100%
+@media screen and ( max-width: 340px )
+  .about-block2
+    & .block2-block 
+      & .block-wrap
+        & .card 
+          & .content 
+            justify-content: space-between
+            & h4
+              font-size: 20px  
+              
          

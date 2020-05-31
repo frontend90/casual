@@ -1,0 +1,62 @@
+.about-block2
+  margin-top: 20px 
+  & .block2-block 
+    background: rgba(#ffffff,.9)
+    padding: 30px 
+    & .title 
+      text-align: center
+      margin-top: 40px 
+      & h5 
+        text-transform: uppercase
+        font-size: 18px
+        letter-spacing: 1px 
+        +jos_reg
+        font-weight: lighter
+        position: relative
+        & span 
+          +jos_bold 
+        &::before
+          content: ''
+          position: absolute
+          top: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 400px 
+        &::after 
+          content: ''
+          position: absolute
+          bottom: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 400px 
+    & .block-wrap
+      display: flex 
+      justify-content: space-between
+      margin-top: 40px 
+      & .card 
+        width: 31.5%
+        & img 
+          width: 100%
+        & .content 
+          margin-top: 20px 
+          display: flex 
+          justify-content: center
+          align-items: flex-end 
+          & h4 
+            text-transform: uppercase
+            +jos_bold
+            letter-spacing: 1px 
+            font-size: 24px 
+            line-height: 1.1 
+          & h5 
+            text-transform: uppercase
+            font-size: 16px 
+            color: #777777
+            letter-spacing: 1px 
+            +jos_reg 
+            font-weight: lighter
+            margin-left: 10px 

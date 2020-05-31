@@ -1,0 +1,51 @@
+.about-block1
+  margin-top: 20px 
+  & .block1-block 
+    background: rgba(#ffffff,.9)
+    padding: 30px 
+    & .title 
+      text-align: center
+      margin-top: 40px 
+      & h5 
+        text-transform: uppercase
+        font-size: 18px
+        letter-spacing: 1px 
+        +jos_reg
+        font-weight: lighter
+        position: relative
+        & span 
+          +jos_bold 
+        &::before
+          content: ''
+          position: absolute
+          top: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 400px 
+        &::after 
+          content: ''
+          position: absolute
+          bottom: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 400px 
+    & .block-wrap 
+      margin-top: 40px 
+      display: flex 
+      justify-content: space-between
+      & .block
+        width: 48.5%
+        & img 
+          width: 100%
+        & p 
+          font-size: 18px 
+          line-height: 1.6 
+          color: #000000
+          margin-top: 10px 
+          &:first-of-type
+            margin-top: 0 
+
