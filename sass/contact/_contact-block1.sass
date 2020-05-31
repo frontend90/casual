@@ -1,0 +1,58 @@
+.contact-block1
+  margin-top: 20px 
+  & .block1-block
+    background: rgba(#ffffff,.9) 
+    padding: 30px 
+    & .title 
+      text-align: center
+      margin-top: 40px 
+      & h5 
+        text-transform: uppercase
+        font-size: 18px
+        letter-spacing: 1px 
+        +jos_reg
+        font-weight: lighter
+        position: relative
+        & span 
+          +jos_bold 
+        &::before
+          content: ''
+          position: absolute
+          top: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 36% 
+        &::after 
+          content: ''
+          position: absolute
+          bottom: -20px 
+          left: 50%
+          transform: translateX(-50%)
+          background: #999999
+          height: 1px 
+          width: 36%  
+    & .block-wrap 
+      margin-top: 40px 
+      display: flex 
+      & .map 
+        width: 66%
+        height: 400px
+        & iframe 
+          width: 100%
+          height: 100%
+      & .content 
+        margin-left: 30px 
+        & p 
+          font-size: 18px 
+          color: #000000
+          line-height: 1.6 
+          margin-top: 10px 
+          &:first-of-type
+            margin-top: 0
+          & a 
+            font-weight: bold
+            color: #428bca
+            &:hover 
+              text-decoration: underline
